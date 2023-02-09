@@ -1,0 +1,9 @@
+.btn_view {
+  display:block; margin: 0 auto;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+  color: white;
+  margin-left: 2px;
+}

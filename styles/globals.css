@@ -6,8 +6,8 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* --background-start-rgb: 214, 219, 220; */
+  /* --background-end-rgb: 255, 255, 255; */
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -105,3 +105,76 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.navbar { 
+  background-color: black;
+  padding: 20px;
+  color: white;
+
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 5px
+
+}
+.navbar ul li {
+  padding: 10px
+}
+
+.list-of-users {
+  padding: 10px;
+}
+
+#users td, #users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.btn-view {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card {
+  max-width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.cakes-info {
+   text-align: center;
+   margin-top: 10px;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.cake-but {
+  display:block; margin: 0 auto;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+  color: white;
+  margin-left: 2px;
+}
+
+.cake_wrapper {
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
