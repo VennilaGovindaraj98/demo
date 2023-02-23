@@ -23,18 +23,18 @@ function UserRow ({users}: user) {
     </>
   )
 //   {users.map((user) => {
-//     return (<tr> 
-//      <td> {user.id} </td>
-//      <td>{user.name}</td>
-//      <td>{user.company.name}</td>
-//      <td> {user.email}</td>
-//      <td><button className="btn-view" >
-//       <Link href = {`users/${user.id}`}> 
-//        View
-//       </Link>
-//       </button></td>
-//    </tr>  
-//    )
+  //   return (<tr> 
+  //    <td> {user.id} </td>
+  //    <td>{user.name}</td>
+  //    <td>{user.company.name}</td>
+  //    <td> {user.email}</td>
+  //    <td><button className="btn-view" >
+  //     <Link href = {`users/${user.id}`}> 
+  //      View
+  //     </Link>
+  //     </button></td>
+  //  </tr>  
+  //  )
 // })}
 
 }

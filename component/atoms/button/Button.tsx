@@ -1,18 +1,29 @@
-// import styles from "./button.module.css";
+import styles from "./button.module.css";
+import className from "classnames";
+import React from "react";
 
 interface buttonParams {
   className?: string;
-  buttonText: string;
-  onClick: React.MouseEventHandler<HTMLButtonElement>
-  bg: string
+  buttonText?: string;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  bg?: string;
+  children?: React.ReactNode;
+  key?: string | number;
+  onSubmit?: React.MouseEventHandler<HTMLButtonElement> | any;
+  dataItemId?: number;
 }
-console.log("eheheh comingggg");
 
 function Button(props: buttonParams) {
-  console.log(props.onClick, "props.onClick");
+  const butClassName = className(styles.button, props.className);
+  const { dataItemId } = props;
   return (
-    <button style={{ backgroundColor: props.bg}} className={props.className} onClick={props.onClick}>
-      {props.buttonText}
+    <button
+      key={props.key}
+      className={butClassName}
+      onClick={props.onClick}
+      onSubmit={props.onSubmit}
+    >
+      {props.buttonText} {props.children}
     </button>
   );
 }

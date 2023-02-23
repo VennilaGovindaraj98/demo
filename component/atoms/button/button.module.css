@@ -1,9 +1,13 @@
-.btn_view {
-  display:block; margin: 0 auto;
-  background-color: black;
-  border-radius: 3px;
-  padding: 10px;
-  border: none;
-  color: white;
-  margin-left: 2px;
+.button {
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-left: 2px;
+    padding-top: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }

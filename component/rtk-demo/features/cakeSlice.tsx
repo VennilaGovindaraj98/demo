@@ -8,12 +8,12 @@ const cakeSlice = createSlice ({
     name: "cake" , 
     initialState,
     reducers: {
-      buyCake: (state ,action) =>{
-        console.log('ehehhe coming' ,  action.payload )
+      buyCake: (state ,action) => {
+        // console.log('ehehhe coming' ,  action.payload )
          state.numOfCakes -= action.payload
       },
       addCake: (state , action) => {
-        console.log('test' , state.numOfCakes)
+        // console.log('test' , state.numOfCakes)
         state.numOfCakes += action.payload
       },
       reset: (state) => {

@@ -8,6 +8,7 @@ const initialState = {
 
 
 export const fetchPosts = createAsyncThunk( 'post/fetchPosts' , async ()=> {
+  //  console.log('ehehhe cominggg' )
    return await fetch("https://jsonplaceholder.typicode.com/posts").then(response => response.json())
 })  
 

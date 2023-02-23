@@ -1,0 +1,14 @@
+.table_heading {
+  background-color: black;
+  color: white;
+  padding: 10px
+}
+
+.table_width {
+   width: 100%;
+}
+
+
+.inlineFlexStyle {
+  display: inline-flex;
+}

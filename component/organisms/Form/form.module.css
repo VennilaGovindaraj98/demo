@@ -1,0 +1,12 @@
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.update_display_style {
+  display: block;
+}
+.add_display_style {
+  display: inline-flex;
+}

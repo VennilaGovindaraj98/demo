@@ -24,6 +24,9 @@ function Navbar() {
         <li>
           <Link href="/reactreduxtoolkit/post">RTK-Posts</Link>
         </li>
+        <li>
+          <Link href="/reactreduxtoolkit/employee">RTK-Employee</Link>
+        </li>
       </ul>
     </div>
   );

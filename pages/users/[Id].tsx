@@ -39,7 +39,7 @@ export async function getStaticProps({params}: {params: {Id: string}}){
   const Id = params.Id
   const response = await fetch(`https://jsonplaceholder.typicode.com/users/${Id}`) 
   const user = await response.json()
-  console.log(user . data)
+  // console.log(user . data)
   return {
     props: {
       user: user

@@ -19,6 +19,18 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "component/reactRedux/store.js", "component/redux/store.tsx", "component/redux/cake/cakeActions.tsx", "component/redux/cake/cakeReducer.js", "pages/reactredux/cake/index.tsx", "component/redux/cake/cakeTypes.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "component/reactRedux/store.js",
+    "component/redux/store.tsx",
+    "component/redux/cake/cakeActions.tsx",
+    "component/redux/cake/cakeReducer.js",
+    "pages/reactredux/cake/index.tsx",
+    "component/redux/cake/cakeTypes.tsx",
+    "component/organisms/Table",
+    "component/organisms/Table"
+  ],
   "exclude": ["node_modules"]
 }

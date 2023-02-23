@@ -163,7 +163,7 @@ a {
    font-weight: bold;
 }
 
-.cake-but {
+.cake_but {
   display:block; margin: 0 auto;
   background-color: black;
   border-radius: 3px;
@@ -176,5 +176,34 @@ a {
 .cake_wrapper {
   display: inline-flex;
   margin-bottom: 5px;
+}
+
+
+.btn_view {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+  color: white;
+  margin-left: 2px;
+}
+
+/* .addCake {
+  background-color: black !important;
+}
+.buyCake {
+  background-color: green !important;
+} */
+
+.pagination button {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.pagination button.active {
+  background: blue;
+  color: white;
 }
 
