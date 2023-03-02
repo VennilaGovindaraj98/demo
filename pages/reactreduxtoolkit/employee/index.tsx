@@ -72,6 +72,7 @@ function Employee() {
   ];
   const dispatch = useDispatch();
   const employee = useSelector((state: stateParams) => state.employee);
+  console.log('employeee' , employee)
   const { modal, items } = employee;
   const deleteEmployeeDispatch = ({
     employee_id,
